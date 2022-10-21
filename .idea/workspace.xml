@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="892502a0-6844-4795-a439-3cdeec4b9383" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="7c16ad7f-11c5-4c86-a4b2-3b083eb3aefa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/Core/SwapFactory.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/Core/SwapFactory.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/periphery/Voter.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/periphery/Voter.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/BaseTest.sol" beforeDir="false" afterPath="$PROJECT_DIR$/test/BaseTest.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Fees.t.sol" beforeDir="false" afterPath="$PROJECT_DIR$/test/Fees.t.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/MyTest.t.sol" beforeDir="false" afterPath="$PROJECT_DIR$/test/MyTest.t.sol" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,47 +20,74 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2GL0BCOH53ULCL4Os3AH1c1IunX" />
+  <component name="ProjectId" id="2GQezNGChnviyLFCMHUAoNl4xaL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "yarn"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="VoterTest.testFail_vote_cannotVoteBeforeNextPeriod" type="SolidityConfigurationType" factoryName="Solidity" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="2022-10-3xcalibur" />
+      <option name="VMParameters" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="alternativeJrePath" />
+      <option name="alternativeJrePathEnabled" value="false" />
+      <option name="classpathModifications">
+        <list />
+      </option>
+      <option name="envs">
+        <map />
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="workingDirectory" value="" />
+      <option name="contractName" value="VoterTest" />
+      <option name="contractFile" value="$PROJECT_DIR$/test/MyTest.t.sol" />
+      <option name="functionName" value="testFail_vote_cannotVoteBeforeNextPeriod" />
+      <option name="vmParameters" />
+      <option name="programParameters" />
+      <option name="workingDirectory" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="ajreEnabled" value="false" />
+      <option name="ajre" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Solidity.VoterTest.testFail_vote_cannotVoteBeforeNextPeriod" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="892502a0-6844-4795-a439-3cdeec4b9383" name="Changes" comment="" />
-      <created>1666152419124</created>
+      <changelist id="7c16ad7f-11c5-4c86-a4b2-3b083eb3aefa" name="Changes" comment="" />
+      <created>1666325496880</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1666152419124</updated>
-      <workItem from="1666152420342" duration="683000" />
-      <workItem from="1666164933211" duration="168000" />
-      <workItem from="1666179487738" duration="22122000" />
-      <workItem from="1666260530679" duration="1149000" />
+      <updated>1666325496880</updated>
+      <workItem from="1666325497979" duration="1897000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

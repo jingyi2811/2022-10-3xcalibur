@@ -34,7 +34,7 @@ contract SwapFactory {
             "SwapFactory: zero address provided in constructor"
         );
         pauser = msg.sender;
-        fee[true] = 369; // 0.0369% for stable swaps (hundredth of a basis point / 369/1000000)
+        fee[true] = 369; // 0.0369% for stable swaps (hundredth of a basis point /   369/1000000)
         fee[false] = 2700; // 0.27% for vaiable swaps (hundredth of a basis point / 2700/1000000)
         feeCollector = _feeCollector;
         admin = msg.sender;
